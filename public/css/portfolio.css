@@ -1,0 +1,102 @@
+
+/* 全体 */
+
+body{
+    margin: 0;
+    line-height: 2.5;
+    font-size: 1.1em;
+}
+
+footer{
+    height: 10vh;
+    border-top:1px solid lightgrey;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* header{
+
+} */
+
+header p{
+    font-size: 2.5em;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+header ul li{
+    font-size: 1em;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover{
+    color: brown;
+}
+
+
+/* よく使う */
+
+.sub-title{
+    font-size: 1.2em;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+}
+
+section{
+    margin-bottom: 150px;
+    min-height: 50vh;
+}
+
+.big-str{
+    font-size: 1.2em;;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* aboutセクション */
+.about-section{
+    width: 70%;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+
+/* work-historyセクション */
+.work-history-section{
+    width: 70%;
+    margin: 0 auto 150px;
+    text-align: center;
+}
+
+/* 制作物セクション */
+
+.work-section{
+    width: 80%;
+    margin: 0 auto 150px;
+}
+
+.work-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-item{
+    width: 100%;
+    text-align: center;
+    min-height: 80vh;
+}
